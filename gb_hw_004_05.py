@@ -11,3 +11,5 @@ product_of_numbers = reduce(lambda x, y: x * y, items_list)
 print(f'Список четных чисел от 100 до 1000: {items_list}')
 print(f'Результат вычисления произведения всех элементов списка: {product_of_numbers}')
 
+
+

@@ -16,3 +16,6 @@ def fact(n):
 n = int(input('Введите число для вычесления факториалов: '))
 for el in fact(n):
     print(el)
+
+
+    
