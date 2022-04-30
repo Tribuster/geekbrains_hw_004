@@ -10,9 +10,6 @@ from random import randint
 my_list = [randint(1, 1000) for i in range(20)]
 print(my_list)
 
-#new_list = [el for el in my_list[1:] if my_list[el] > my_list[el - 1]]
-new_list = []
-for i in range(1, len(my_list)):
-    if my_list[i] > my_list[i-1]:
-        (new_list.append(my_list[i]))
+new_list = [my_list[el] for el in range (1, len(my_list)) if my_list[el] > my_list[el - 1]]
+
 print(new_list)

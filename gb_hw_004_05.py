@@ -1,9 +1,13 @@
+#   5. Реализовать формирование списка, используя функцию range() и возможности генератора.
+#   В список должны войти чётные числа от 100 до 1000 (включая границы).
+#   Нужно получить результат вычисления произведения всех элементов списка.
+#   Подсказка: использовать функцию reduce().
 
 
 from functools import reduce
 
-items = [1, 2, 3, 4, 5]
-sum_all = reduce(lambda x, y: x * y, items)
-
-print(sum_all)
+items_list = [i for i in range(100, 1001) if i % 2 == 0]
+product_of_numbers = reduce(lambda x, y: x * y, items_list)
+print(f'Список четных чисел от 100 до 1000: {items_list}')
+print(f'Результат вычисления произведения всех элементов списка: {product_of_numbers}')
 
