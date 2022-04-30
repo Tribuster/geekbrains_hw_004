@@ -10,3 +10,4 @@ prime_list = [2, 2, 2, 7, 23, 1, 44, 44, 3, 2, 10, 7, 4, 11]
 new_list = [el for el in prime_list if prime_list.count(el) == 1]
 print(f'Начальный список: {prime_list}')
 print(f'Список чисел начального списка, не имеющих повторений: {new_list}')
+

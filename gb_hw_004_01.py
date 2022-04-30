@@ -8,3 +8,5 @@ production_in_hours, rate_per_hour, premium = map(int, argv[1:])
 employee_salary = production_in_hours * rate_per_hour + premium
 
 print(f'Заработная плата сотрудника составляет: {employee_salary} денежных едениц')
+
+

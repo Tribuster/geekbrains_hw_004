@@ -25,3 +25,4 @@ for i in cycle(my_list):
     else:
         b += 1
         print(i, end=' ')
+
